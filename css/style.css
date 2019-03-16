@@ -20,7 +20,7 @@ body {
   margin-right: auto;
 }
 
-.headerTitleBox {
+.headerTitle {
   position: relative;
 }
 
@@ -40,6 +40,37 @@ body {
   position: absolute;
   top: 100px;
   color: white;
+}
+
+.socialAicon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socialAiconContents {
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  list-style: none;
+}
+
+.mainText {
+  margin: 0 auto 0 auto;
+  max-width: 800px;
+}
+
+.mainUpImage {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.mainUnderImage {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 #humberger {
