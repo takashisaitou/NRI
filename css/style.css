@@ -1,6 +1,23 @@
-header {
-  width: 500px;
-  text-align: center;
+body {
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0;
+}
+
+.headerNav {
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: flex;
+  list-style: none;
+}
+
+.headerNavList:first-child {
+  margin-right: auto;
 }
 
 #humberger {
