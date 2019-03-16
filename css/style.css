@@ -20,6 +20,28 @@ body {
   margin-right: auto;
 }
 
+.headerTitleBox {
+  position: relative;
+}
+
+.headerTitle-image {
+  width: 100%;
+  height: 253px;
+  object-fit: cover;
+}
+
+.headerTitleText {
+  position: absolute;
+  top: 50px;
+  color: white;
+}
+
+.headerText {
+  position: absolute;
+  top: 100px;
+  color: white;
+}
+
 #humberger {
   position: relative;
   height: 24px;
