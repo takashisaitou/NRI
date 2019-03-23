@@ -2,6 +2,10 @@ body {
   margin: 0 auto;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .header {
   max-width: 1280px;
   margin: auto;
@@ -71,6 +75,28 @@ body {
   width: 100%;
   margin: 0 auto;
   object-fit: contain;
+}
+
+.centerText {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.mainFuture {
+  width: 300px;
+  background-color: #0C5DA9;
+}
+
+.mainColumn {
+  display: flex;
+  flex-direction: row;
+}
+
+.columBok {
+  width: 150px;
+  height: 150px;
 }
 
 #humberger {
